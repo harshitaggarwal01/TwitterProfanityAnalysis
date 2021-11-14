@@ -22,7 +22,7 @@ For now I have used a temporary dataset I got from the internet to test the prog
 1. A file containing Twitter handles and their tweets such that each line contains one Twitter handle and tweets. Check any of the example files called "tweets" with extensions "txt/text/csv/xls/xlsx" for the correct format.
 2. A "txt/text" file with one "profanity word" per line. Check the file called "search_words.txt" or "search_words.text" for the correct format.
 
-Given these two files fulfilling the aforementioned requiremnets, the Python program identifies the degree of profanity per tweet. The degree of profanity is defined as the ratio of the number of abusive/racial words in a tweet to the total number of words in the times 100.
+Given these two files fulfilling the aforementioned requirements, the Python program identifies the degree of profanity per tweet. The degree of profanity is defined as the ratio of the number of abusive/racial words in a tweet to the total number of words in the times 100.
 
 ### Outputs
 A CSV file with 4 columns: User handles, original tweets, "profinity words", and degree of profanity - Check "tweets_analysis.csv".
